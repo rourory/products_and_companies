@@ -99,10 +99,12 @@ public class Application extends JFrame {
     }
 
     private void setCompanyListModel() {
-        companyList.setModel(new CompanyListModel());
+        companyListModel = new CompanyListModel();
+        companyList.setModel(companyListModel);
     }
 
     private void setProductTableModel() {
-        productsTable.setModel(new ProductTableModel(productsTable));
+        productsTableModel = new ProductTableModel(productsTable);
+        productsTable.setModel(productsTableModel);
     }
 }
