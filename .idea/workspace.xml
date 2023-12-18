@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9feda157-4c4d-411a-aa15-2a2bad9de8a3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/JPAMappingSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/POJOGeneratorSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/postgresql_42_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_and_companies_example.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data_access_layer/connection/ConnectionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data_access_layer/dto/CategoryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data_access_layer/dto/CompanyDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data_access_layer/dto/CountryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data_access_layer/dto/DTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data_access_layer/dto/ProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data_access_layer/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data_access_layer/entity/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data_access_layer/entity/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data_access_layer/entity/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data_access_layer/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data_access_layer/repository/AbstractRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data_access_layer/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data_access_layer/repository/CompanyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data_access_layer/repository/CountryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data_access_layer/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data_access_layer/repository/QueryTemplates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service_layer/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service_layer/mapper/CompanyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service_layer/mapper/CountryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service_layer/mapper/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service_layer/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service_layer/service/CompanyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service_layer/service/CountryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service_layer/service/IService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service_layer/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/CaseConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view_layer/form/AddCompanyForm.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view_layer/form/AddCompanyForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view_layer/form/Application.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view_layer/form/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view_layer/form/DeleteCompanyDialog.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view_layer/form/DeleteCompanyDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view_layer/form/DeleteProductDialog.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view_layer/form/DeleteProductDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view_layer/model/CompanyListModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view_layer/model/ProductTableModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view_layer/model/cell_renderer/CategoryCellRenderer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view_layer/model/listener/ProductTableCellEditorListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/variables.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ZOXltbn8hJehnCEgxxXIDIpKrb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH&quot;: &quot;284&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/Admin/Documents/JavaProjects/product_and_companies_example/src/main/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Documents/JavaProjects/product_and_companies_example/readme/ProductsAndCompanyDrawning.png&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.30839232&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Documents\JavaProjects\product_and_companies_example\src\main\java\data_access_layer\dto" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Documents\JavaProjects\product_and_companies_example\src\main\resources" />
+      <recent name="C:\Users\Admin\Documents\JavaProjects\product_and_companies_example\src\main\java\db" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="main.java.Main" />
+      <module name="product_and_companies_example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.data_access_layer.connection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9feda157-4c4d-411a-aa15-2a2bad9de8a3" name="Changes" comment="" />
+      <created>1702294256607</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702294256607</updated>
+      <workItem from="1702294259419" duration="2830000" />
+      <workItem from="1702297506825" duration="2077000" />
+      <workItem from="1702301157900" duration="830000" />
+      <workItem from="1702308206782" duration="7597000" />
+      <workItem from="1702465803614" duration="8991000" />
+      <workItem from="1702534329003" duration="15091000" />
+      <workItem from="1702625461862" duration="19087000" />
+      <workItem from="1702727274942" duration="7234000" />
+      <workItem from="1702806927767" duration="11755000" />
+      <workItem from="1702881111757" duration="706000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../../Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/sun/nio/fs/AbstractPath.class</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/view_layer/model/listener/ProductTableCellEditorListener.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
