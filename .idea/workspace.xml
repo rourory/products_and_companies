@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9feda157-4c4d-411a-aa15-2a2bad9de8a3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9feda157-4c4d-411a-aa15-2a2bad9de8a3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,9 +37,9 @@
     "UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH": "284",
     "WebServerToolWindowFactoryState": "false",
     "last_directory_selection": "C:/Users/Admin/Documents/JavaProjects/product_and_companies_example/src/main/java",
-    "last_opened_file_path": "C:/Users/Admin/Documents/JavaProjects/product_and_companies_example/readme/ProductsAndCompanyDrawning.png",
+    "last_opened_file_path": "I:/Share/ПРИМЕР/postgresql-42.7.1.jar",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.30839232",
     "settings.editor.selected.configurable": "configurable.group.appearance"
@@ -101,6 +99,7 @@
       <workItem from="1702727274942" duration="7234000" />
       <workItem from="1702806927767" duration="11755000" />
       <workItem from="1702881111757" duration="2971000" />
+      <workItem from="1702889225419" duration="275000" />
     </task>
     <servers />
   </component>
